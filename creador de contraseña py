@@ -1,0 +1,13 @@
+import random
+
+def generar_contrasena(longitud):
+    caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    contrasena = ""
+    for i in range(longitud)
+        contraseña += random.choice(caracteres)
+    return contrasena
+
+longitud = int(input("cual es la longitud de la contraseña deseada"))
+
+nueva_contrasena = generar_contrasena(longitud)
+print("la contraseña es:",nueva_contrasena)
